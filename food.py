@@ -11,3 +11,6 @@ class Food(Turtle):
         self.speed("fastest")
         self.goto(random.randint(-280, 280), random.randint(-280, 280))
 
+    def refresh(self):
+        self.goto(random.randint(-280, 280), random.randint(-280, 280))
+
